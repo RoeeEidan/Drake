@@ -1,0 +1,126 @@
+*{
+overflow-x: hidden;
+}
+
+body{
+  background-color: #141510;
+}
+
+#root {
+  color:white;
+  margin: auto;
+  padding: 0;
+  font-family: initial;
+  letter-spacing: 1px;
+  background-color: rgb(72, 59, 92);
+  margin-bottom: 50px;
+  max-width: 930px;
+}
+
+.audio_player {
+  background-color:#141510;
+  opacity: 0.9;
+}
+
+.audio_player .play_pause_button .triangle_1,
+.audio_player .play_pause_button .triangle_2 {
+  border-right-color: #141510;
+}
+
+.ImgDiv{
+  float:left;
+  height: 130px;
+  width: 130px;
+  position: relative;
+  top: 23px;
+  left: 23px;
+}
+
+.SongBox{
+  height: 175px;
+  border: 1px solid rgb(117, 101, 142);
+}
+
+.SongBox:hover{
+  border: 3px solid rgb(117, 101, 142);
+  background-color: rgb(83, 62,104);
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+}
+
+.TextDiv{
+  margin:0 0 0 170px;
+}
+
+.h1{
+  text-align: center;
+  height: 488px;
+  width:100%;
+  background-image: url('http://media.ellentv.com/2016/05/11/drake-episode-1200x630.jpg');
+  background-size: 100%; 
+}
+
+h1{
+  margin:0;
+  position: relative;
+  left: 330px;
+  top: 395px;
+  font-size: 55px;
+}
+
+.h2link{
+  margin-bottom: 5px;
+  color: white;
+}
+
+p{
+  margin :5px;
+}
+
+#audio_player{
+  max-width: 930px;
+}
+
+div#playbutton {
+  float: right;
+}
+
+.playimg{
+  float: right;
+  position: relative;
+  bottom: 45px;
+  right: 22px;
+  border: 1px solid rgb(117, 101, 142);
+}
+
+.playimg:hover{
+  border:2px solid rgb(157, 141, 182);
+  position: relative;
+  bottom: 47px;
+  right: 20px;
+}
+
+#audio_time_progress{
+  font-size: 21px;
+}
+
+.ImgDiv{
+  position: relative;
+}
+
+.SongBoxDetaled{
+  height: 100%;
+  border: 1px solid rgb(117, 101, 142);
+}
+
+.BackButton{
+  float: right;
+  margin: 7px;
+}
+
+.BackButton:hover{
+  position: relative;
+  bottom: 1px;
+  left: 1px;
+}
